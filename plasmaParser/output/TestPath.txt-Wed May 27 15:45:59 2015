@@ -1,0 +1,50 @@
+( This is a modified Vectric-generated Gcode file )
+( Wed May 27 15:50:14 2015 )
+( TestPath )
+( File created: понеделник, Май 25, 2015 - 12:24 PM)
+( for Mach2/3 from Vectric )
+( Material Size)
+( X= 500.000, Y= 500.000 ,Z= 10.000)
+()
+(Toolpaths used i this file:)
+(Profile 1)
+(Tools used i this file: )
+(0 = Ed Mill {1.5 mm})
+G00G21G17G90G40G49G80
+G71G91.1
+T0M06
+ (End Mill {1.5 mm})
+G00G43Z20.000H0
+S0
+(Toolpath:- Profile 1)
+()
+G94
+X0.000Y0.000F12000.0
+G00X30.366Y41.389Z6.000
+
+(###Injected code below###)
+G31Z-30
+G91
+G0Z15.00
+G00Z0.00
+M3
+G4P250
+G90
+(###Injected code above###)
+
+G1X30.366Y41.389Z-7.000F12000.0
+G2X45.366Y26.389I0.000J-15.000
+G2X30.366Y11.389I-15.000J0.000
+G2X15.366Y26.389I0.000J15.000
+
+(###Injected code below###)
+M5
+(###Injected code above###)
+
+G2X30.366Y41.389I15.000J0.000
+G00X30.366Y41.389Z6.000
+G00Z20.000
+G00X0.000Y0.000
+M09
+M30
+%
