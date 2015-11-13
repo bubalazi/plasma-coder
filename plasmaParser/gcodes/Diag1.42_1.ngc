@@ -4,10 +4,6 @@
 G21 (Units in millimeters) G90 (Absolute programming) G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
 G0 Z  15.000 
 
-(*** LAYER: 0 ***)
-T1 M6
-S6000
-
 (* SHAPE Nr: 0 *)
 G0 X  59.280 Y  41.977
 M3 M8
